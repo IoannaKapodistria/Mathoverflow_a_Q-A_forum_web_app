@@ -17,22 +17,22 @@ answer_btn.addEventListener("click", (event) => {
   });
 });
 
-async function post_answer(url = "", data = {}) {
+ function post_answer(url = "", data = {}) {
   // Default options are marked with *
-  const response = await fetch(url, {
+  const response = fetch(url, {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
     headers: {
       "Content-Type": "application/json",
       // 'Content-Type': 'application/x-www-form-urlencoded',
     },
-    redirect: "follow", // manual, *follow, error
+    redirect: "follow", 
 
-    body: JSON.stringify(data), // body data type must match "Content-Type" header
+    body: JSON.stringify(data), 
+  }).then((response) => {
+    if (response.redirected) {
+      console.log(response.url);
+      //console.log("redirecteddd");
+      window.location.href = response.url;
+    }
   });
-  
-  location.reload();
-  if (response.redirected) {
-    //console.log(response.url);
-    window.location.href = response.url;
-  }
 }

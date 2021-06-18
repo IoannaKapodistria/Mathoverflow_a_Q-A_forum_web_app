@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="344" height="71" viewBox="0 0 344 71">
+  <defs>
+    <polygon id="a" points=".465 .335 372.965 .335 372.965 70.335 .465 70.335"/>
+    <polygon id="c" points=".314 .335 365.682 .335 365.682 70.335 .314 70.335"/>
+    <polygon id="e" points=".163 .335 358.398 .335 358.398 70.335 .163 70.335"/>
+    <polygon id="g" points=".012 .335 351.115 .335 351.115 70.335 .012 70.335"/>
+    <polygon id="i" points=".86 .335 344.831 .335 344.831 70.335 .86 70.335"/>
+    <polygon id="k" points=".901 .335 336.014 .335 336.014 70.335 .901 70.335"/>
+    <polygon id="m" points=".886 .335 328.742 .335 328.742 70.335 .886 70.335"/>
+    <polygon id="o" points=".865 .335 321.468 .335 321.468 70.335 .865 70.335"/>
+    <polygon id="q" points=".838 .335 314.195 .335 314.195 70.335 .838 70.335"/>
+    <polygon id="s" points=".804 .335 306.92 .335 306.92 70.335 .804 70.335"/>
+    <polygon id="u" points=".798 .335 322.831 .335 322.831 45.959 .798 45.959"/>
+    <polygon id="w" points=".279 .335 324.758 .335 324.758 50.561 .279 50.561"/>
+    <polygon id="y" points=".761 .335 327.685 .335 327.685 55.177 .761 55.177"/>
+    <polygon id="A" points=".242 .335 329.611 .335 329.611 59.808 .242 59.808"/>
+    <polygon id="C" points=".724 .335 332.537 .335 332.537 64.452 .724 64.452"/>
+    <polygon id="E" points=".206 .335 334.464 .335 334.464 69.11 .206 69.11"/>
+    <polygon id="G" points=".688 .335 337.391 .335 337.391 70.335 .688 70.335"/>
+    <polygon id="I" points=".169 .335 339.317 .335 339.317 70.335 .169 70.335"/>
+    <polygon id="K" points=".65 .335 342.243 .335 342.243 70.335 .65 70.335"/>
+    <polygon id="M" points=".132 .335 344.17 .335 344.17 70.335 .132 70.335"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-41)">
+    <g transform="translate(15 .043)">
+      <mask id="b" fill="white">
+        <use xlink:href="#a"/>
+      </mask>
+      <path stroke="#15A3EC" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.4649,116.8346 C4.4119,99.4806 12.4649,83.8346 28.9649,70.3346 C43.5689,58.3866 130.2449,-13.2444 198.7979,18.0016 C244.1469,38.6696 333.9649,54.3346 372.9649,-6.1654" mask="url(#b)"/>
+      <g transform="translate(1)">
+        <mask id="d" fill="white">
+          <use xlink:href="#c"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray="1.944 .198" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.3135,116.3473 C8.3625,98.1863 20.0395,86.9953 38.1415,74.5073 C55.0565,62.8363 130.4775,-10.7577 196.1245,19.8883 C243.9045,42.1933 326.9845,55.4063 365.6815,-6.1477" mask="url(#d)"/>
+      </g>
+      <g transform="translate(2)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray="1.745 .397" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.1631,115.86 C12.3121,96.892 27.6931,90.222 47.3181,78.679 C66.6121,67.331 130.6801,-8.198 193.4491,21.775 C243.6511,45.746 320.0041,56.478 358.3981,-6.129" mask="url(#f)"/>
+      </g>
+      <g transform="translate(3)">
+        <mask id="h" fill="white">
+          <use xlink:href="#g"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray="1.547 .595" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.0118,115.3727 C16.2628,95.5987 35.3998,93.5107 56.4948,82.8517 C78.2138,71.8767 130.8538,-5.5743 190.7758,23.6617 C243.3858,49.3307 313.0238,57.5497 351.1148,-6.1113" mask="url(#h)"/>
+      </g>
+      <g transform="translate(3)">
+        <mask id="j" fill="white">
+          <use xlink:href="#i"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray="1.349 .793" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.8604,114.8853 C21.2144,94.3043 44.1354,96.8543 66.6714,87.0233 C90.8454,76.4773 132.0024,-2.8977 189.1004,25.5483 C244.1034,52.9503 307.0434,58.6203 344.8314,-6.0937" mask="url(#j)"/>
+      </g>
+      <g transform="translate(5)">
+        <mask id="l" fill="white">
+          <use xlink:href="#k"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray="1.15 .991" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.9014,113.3795 C25.0304,93.2405 51.2784,100.0975 74.8474,91.1955 C101.4984,81.1305 131.1294,-0.1755 185.4264,27.4355 C242.5314,56.4735 298.5304,59.6625 336.0144,-5.1465" mask="url(#l)"/>
+      </g>
+      <g transform="translate(6)">
+        <mask id="n" fill="white">
+          <use xlink:href="#m"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray=".95 1.188" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.8858,112.9049 C29.0578,92.0819 59.0428,103.5449 84.0248,95.3679 C113.1588,85.8319 131.2358,2.5869 182.7518,29.3219 C242.1978,60.1729 291.6168,60.7589 328.7418,-5.1241" mask="url(#n)"/>
+      </g>
+      <g transform="translate(7)">
+        <mask id="p" fill="white">
+          <use xlink:href="#o"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray=".754 1.389" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.8653,112.4239 C33.0843,90.9139 66.8103,107.0209 93.2013,99.5409 C124.8253,90.5759 131.3223,5.3819 180.0783,31.2089 C241.8363,63.9239 284.7023,61.8559 321.4683,-5.1001" mask="url(#p)"/>
+      </g>
+      <g transform="translate(8)">
+        <mask id="r" fill="white">
+          <use xlink:href="#q"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray=".556 1.589" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.838,111.9405 C37.107,89.7385 74.574,110.5215 102.378,103.7125 C136.49,95.3585 131.392,8.2075 177.404,33.0965 C241.441,67.7355 277.786,62.9525 314.195,-5.0785" mask="url(#r)"/>
+      </g>
+      <g transform="translate(9)">
+        <mask id="t" fill="white">
+          <use xlink:href="#s"/>
+        </mask>
+        <path stroke="#15A3EC" stroke-dasharray=".357 1.786" stroke-linecap="round" stroke-linejoin="round" stroke-width=".331" d="M0.8038,111.4557 C41.1248,88.5567 82.3338,114.0417 111.5548,107.8847 C148.1528,100.1737 131.4448,11.0567 174.7298,34.9827 C241.0038,71.6157 270.8678,64.0487 306.9198,-5.0533" mask="url(#t)"/>
+      </g>
+    </g>
+    <g transform="translate(40 .043)">
+      <mask id="v" fill="white">
+        <use xlink:href="#u"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.105" stroke-linecap="round" stroke-width=".789" d="M322.8311,-6.0937 C285.4591,-4.5927 258.9241,-11.2387 235.6781,-4.9427 C206.9651,2.8333 208.6451,68.3213 168.0741,37.9913 C96.5491,-15.4757 10.4681,-22.4717 0.7981,-5.3317" mask="url(#v)"/>
+    </g>
+    <g transform="translate(36 .043)">
+      <mask id="x" fill="white">
+        <use xlink:href="#w"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.222" stroke-linecap="round" stroke-width=".731" d="M324.7579,-5.9535 C288.5159,2.8295 262.9739,-9.2195 239.7269,-2.9245 C211.0149,4.8515 210.8429,73.4505 170.6729,42.6595 C102.5519,-9.5565 9.4569,-22.5635 0.2789,-5.2215" mask="url(#x)"/>
+    </g>
+    <g transform="translate(31 .043)">
+      <mask id="z" fill="white">
+        <use xlink:href="#y"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.339" stroke-linecap="round" stroke-width=".672" d="M327.6846,-5.8134 C292.5716,10.2506 268.0226,-7.2014 244.7756,-0.9054 C216.0636,6.8706 214.0296,78.5976 174.2716,47.3276 C109.5276,-3.5964 9.4466,-22.6554 0.7606,-5.1094" mask="url(#z)"/>
+    </g>
+    <g transform="translate(27 .043)">
+      <mask id="B" fill="white">
+        <use xlink:href="#A"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.456" stroke-linecap="round" stroke-width=".614" d="M329.6114,-5.6732 C295.6274,17.6728 272.0714,-5.1822 248.8244,1.1138 C220.1124,8.8898 216.2034,83.7648 176.8714,51.9948 C115.4754,2.4048 8.4354,-22.7482 0.2424,-4.9992" mask="url(#B)"/>
+    </g>
+    <g transform="translate(22 .043)">
+      <mask id="D" fill="white">
+        <use xlink:href="#C"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.573" stroke-linecap="round" stroke-width=".556" d="M332.5372,-5.5336 C299.6832,25.0934 277.1202,-3.1636 253.8742,3.1324 C225.1612,10.9074 219.3622,88.9534 180.4702,56.6624 C122.3952,8.4454 8.4252,-22.8406 0.7242,-4.8876" mask="url(#D)"/>
+    </g>
+    <g transform="translate(18 .043)">
+      <mask id="F" fill="white">
+        <use xlink:href="#E"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.69" stroke-linecap="round" stroke-width=".497" d="M334.4639,-5.3935 C302.7379,32.5155 281.1699,-1.1445 257.9229,5.1505 C229.2109,12.9265 221.5019,94.1665 183.0679,61.3305 C128.2839,14.5245 7.4139,-22.9325 0.2059,-4.7765" mask="url(#F)"/>
+    </g>
+    <g transform="translate(13 .043)">
+      <mask id="H" fill="white">
+        <use xlink:href="#G"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.807" stroke-linecap="round" stroke-width=".439" d="M337.3907,-5.2533 C306.7937,39.9367 286.2187,0.8737 262.9717,7.1697 C234.2597,14.9457 224.6197,99.4047 186.6677,65.9977 C135.1407,20.6417 7.4037,-23.0243 0.6877,-4.6653" mask="url(#H)"/>
+    </g>
+    <g transform="translate(9 .043)">
+      <mask id="J" fill="white">
+        <use xlink:href="#I"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 2.924" stroke-linecap="round" stroke-width=".38" d="M339.3174,-5.1132 C309.8494,47.3588 290.2674,2.8928 267.0214,9.1888 C238.3084,16.9648 226.7104,104.6728 189.2664,70.6658 C140.9634,26.7948 6.3924,-23.1162 0.1694,-4.5542" mask="url(#J)"/>
+    </g>
+    <g transform="translate(4 .043)">
+      <mask id="L" fill="white">
+        <use xlink:href="#K"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 3.041" stroke-linecap="round" stroke-width=".322" d="M342.2432,-4.9731 C313.9052,54.7799 295.3162,4.9119 272.0702,11.2079 C243.3572,18.9829 229.7662,109.9739 192.8662,75.3339 C147.7502,32.9809 6.3822,-23.2091 0.6502,-4.4431" mask="url(#L)"/>
+    </g>
+    <g transform="translate(0 .043)">
+      <mask id="N" fill="white">
+        <use xlink:href="#M"/>
+      </mask>
+      <path stroke="#FF28B9" stroke-dasharray=".132 3.158" stroke-linecap="round" stroke-width=".263" d="M344.17,-4.8334 C316.962,62.2016 299.366,6.9306 276.119,13.2266 C247.407,21.0016 231.783,115.3126 195.465,80.0006 C153.499,39.1996 5.371,-23.3004 0.132,-4.3324" mask="url(#N)"/>
+    </g>
+  </g>
+</svg>

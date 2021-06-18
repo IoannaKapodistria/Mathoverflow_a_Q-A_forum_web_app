@@ -1,0 +1,143 @@
+.maincontext {
+  background-image: url("../images/17.png");
+  background-repeat: repeat;
+  background-size: 1300px 1300px;
+}
+
+/*html,body {
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+} */
+
+.left-sidebar {
+  height: 600px;
+  /*border-right: 1px solid rgb(221, 221, 221);
+    /*background-color: rgb(245, 245, 245);*/
+}
+
+#login {
+  height: 100%;
+  align-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 500px;
+  background-color:/* rgb(222, 240, 252)*/ rgb(231, 245, 255) !important;
+  /*box-shadow: 0 5px 5px rgb(102, 102, 102);*/
+  box-shadow: 5px 4px 4px lightgray;
+}
+
+.social_icon a {
+  font-size: 60px;
+  margin-left: 10px;
+  color: rgb(78, 151, 247);
+}
+
+.social_icon a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: black;
+  /* white;*/
+}
+
+.footer_title {
+  font-size: 22px;
+  float: left;
+  font-family: inherit;
+  font-weight: normal;
+  padding-left: 15px;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: rgb(78, 151, 247);
+  color: white; /*black;*/
+  border: 0 !important;
+}
+
+.form-control {
+  background-color: white;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+#signup_button {
+  color: white;
+  background-color: rgb(78, 151, 247);
+  width: 80px;
+  float: right;
+  border-radius: 6%;
+  border: 1px solid rgb(78, 151, 247);
+  padding: 2px;
+}
+
+#signup_button:hover {
+  color: white;
+  background-color: rgb(26, 94, 182);
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+
+#login {
+  max-width: 80%;
+  min-width: 200px;
+  height: 500px;
+  /*position: center;*/
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10px;
+}
+#signup {
+  max-width: 80%;
+  min-width: 200px;
+  height: 500px;
+  /*position: center;*/
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10px;
+}
+
+.login_page {
+  opacity: 0.4;
+}
+
+#noaccount {
+  color: black;
+}
+
+#haveaccount {
+  color: black;
+}
+
+.info_message {
+  margin-left: 10px;
+}

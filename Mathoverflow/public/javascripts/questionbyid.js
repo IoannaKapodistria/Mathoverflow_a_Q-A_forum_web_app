@@ -30,7 +30,7 @@ async function post_answer(url = "", data = {}) {
     body: JSON.stringify(data), // body data type must match "Content-Type" header
   });
   
-  //location.reload();
+  location.reload();
   if (response.redirected) {
     //console.log(response.url);
     window.location.href = response.url;

@@ -91,6 +91,7 @@ body {
 .question {
   margin-top: 30px;
   margin-left: 0px;
+  margin-bottom: 10px;
   background-color: #fdfdfd;
   /* color: #ffffff; /* #fdf7e3*/
   opacity: 0.88;

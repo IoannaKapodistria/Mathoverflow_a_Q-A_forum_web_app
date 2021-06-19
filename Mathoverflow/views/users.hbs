@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/css/users.css" />
+
+<div class="col-7 content px-0">
+  <div class="row Users d-inline-block">Users</div>
+
+  <!--<div class="container-fluid px-0">-->
+
+
+
+  <div class="row allusers">
+
+    {{#each users}}
+    <div class="col-1 userimg"><img src="/images/prof_photo.png" height="50" width="50"> </div>
+    <div class="col-2 username1">
+      <div class="row"> {{{this.dataValues.username}}} <span class="u_id">{{{this.dataValues.user_id}}}</span></div>
+      <div class="row greece">Greece</div>
+    </div>
+    {{/each}}
+  </div>
+
+  <!--</div>-->
+</div>
+
+<div class="col-3 px-0">
+  <!-- <div class="row"><img src="" alt="" ></div>
+            <br/>
+            <div class="row"><img src="" alt="" ></div>-->
+  <!--<a class="btn btn-primary  askbtn" href="/ask" role="button">Ask Question</a>-->
+</div>
+</div>
+</div>
+
+<script src="/javascripts/users.js"></script>

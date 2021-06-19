@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="/css/questions.css" />
+
+<div class="col-7 content px-0">
+  <div class="explore d-inline-block">Explore our Questions</div>
+
+  <div class="container-fluid px-0">
+
+
+    {{#each questions}}
+    <div class="row question">
+      <div class="col-3 qinfo">
+        <div class="row">
+          <div class="col">
+            <div class="no">20</div>
+            <div>
+              Votes
+            </div>
+          </div>
+          <div class="col ">
+            <div class="no">10</div>
+            <div>Answers</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 qtitle"> {{{this.dataValues.title}}} <span class="q_id">{{{this.dataValues.question_id}}}</span>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+<div class="col-3 px-0">
+  <a class="btn btn-primary  askbtn" href="/ask" role="button">Ask Question</a>
+</div>
+</div>
+</div>
+
+<script src="/javascripts/questions.js"></script>

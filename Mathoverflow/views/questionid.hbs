@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="/css/questionid.css" />
+
+
+
+<div class="col-7 content px-0">
+  <!-- <div class="explore d-inline-block">Explore our Questions</div>-->
+
+  <div class="container-fluid px-0">
+    <div class="row">
+      <div class="col-10 question_title">
+        {{question_title}}
+      </div>
+      <br />
+      <div class="col-10 question_body">
+        {{question_body}}
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--FORMA APANTHSHS-->
+
+  <form id="answer_form">
+    <br />
+    <br />
+    <div class='pb-4'>Know someone who can answer? Share a link to this question via email, <a
+        href="https://twitter.com/">Twitter</a>, or <a href="https://www.facebook.com/">Facebook</a>.</div>
+    <label for="answer_body" class='answer_body'>
+      Your Answer <br />
+      <textarea id="answer_body" name="body" placeholder="Type your answer" cols='55' required /></textarea>
+    </label>
+    <br />
+    <br />
+    <button class="btn btn-primary  askbtn_answer">Submit</button>
+  </form>
+
+
+  <!--APANTHSEIS-->
+  <div class='row answers_section'> ANSWERS </div>
+  {{#each answers}}
+  <div class="row answer">
+    <div class="col-2 qinfo">
+      <div class="row">
+        <div class="col">
+          <div class="no">10</div>
+          <div>
+            Votes
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 answerbody"> {{{this.dataValues.body}}}
+   
+    </div>
+  </div>
+  {{/each}}
+
+
+
+
+</div>
+
+<div class="col-2 px-0">
+  <a class="btn btn-primary  askbtn" href="/ask" role="button">Ask Question</a>
+</div>
+
+
+</div>
+<!--kleinei to container fluid apo tin main-->
+</div>
+
+
+<script src="/javascripts/questionbyid.js"></script>

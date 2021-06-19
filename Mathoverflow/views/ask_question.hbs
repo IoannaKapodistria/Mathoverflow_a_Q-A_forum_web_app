@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="/css/ask.css" />
+
+
+<div class="col-7 content px-0">
+    <div class="type_title d-inline-block">Ask a Question</div>
+
+    <div class="container-fluid px-0">
+
+
+
+        <div class="row">
+
+            <form class='ask_form' id="form1" action='/questions' method="POST">
+                <label class='title_area' for="name">
+                    Title <br />
+                    <div class="instructions">Be specific and imagine you’re asking a question to another person</div>
+                    <input type="text" id="title_area" name="title" size='53' required />
+                </label>
+                <br />
+                <br />
+                <label for="question_body" class='question_body'>
+                    Body <br />
+                    <div class="instructions">Include all the information someone would need to answer your question
+                    </div>
+                    <textarea id="question_body" name="body" placeholder="Type your question" rows="8" cols='55'
+                        required /></textarea>
+                </label>
+
+            </form>
+        </div>
+
+
+    </div>
+    <button class="btn btn-primary  askbtn_askform" form='form1' type="submit">Submit</button>
+    <!--<a class="btn btn-primary  askbtn_askform" type="submit" role="button">Post it</a>-->
+</div>
+
+
+<div class="col-3 px-0">
+    <!-- <a class="btn btn-primary  askbtn" href="#" role="button">Post it</a>-->
+</div>
+
+</div>
+<!--kleinei to container fluid apo tin main-->
+</div>

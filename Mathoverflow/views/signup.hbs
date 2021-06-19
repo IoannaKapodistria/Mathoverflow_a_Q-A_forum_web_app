@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="/css/login.css" />
+<script type="text/javascript" src="javascripts/signup.js" defer> </script>
+
+<div class="container" id="signup">
+  <div class="d-flex justify-content-center h-100">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="footer_title">Sign Up</h3>
+        <div class="d-flex justify-content-end social_icon">
+          <a href="https://www.facebook.com/"><i
+              class="fab fa-facebook-square"
+            ></i></a>
+          <a href="https://www.youtube.com/"><i
+              class="fab fa-youtube-square"
+            ></i></a>
+          <a href="https://twitter.com/"><i
+              class="fab fa-twitter-square"
+            ></i></a>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <form id="form" name="signup_form" action="/signup" method="POST">
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input
+              id="username"
+              name="username"
+              placeholder="username"
+              pattern="^[a-zA-Z0-9_-]{3,16}$"
+              required="required"
+              type="text"
+              class="form-control"
+            />
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input
+              id="email"
+              name="email"
+              required="required"
+              type="email"
+              class="form-control"
+              placeholder="email"
+            />
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-lock"></i></span>
+            </div>
+            <input
+              id="password"
+              name="password"
+              required="required"
+              type="password"
+              class="form-control"
+              placeholder="password"
+            />
+          </div>
+
+          <div class="form-group">
+            <button class="login_btn" id="signup_button" type="submit">Sign Up</button>
+
+            <br />
+            <div class="info_message"> {{message}} </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="card-footer">
+        <div class="d-flex justify-content-center links" id="haveaccount">
+          Already have an account?<a href="/login">Log In</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

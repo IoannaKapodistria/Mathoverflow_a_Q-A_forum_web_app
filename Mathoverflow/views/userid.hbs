@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/css/userid.css" />
+
+<div class="container userid">
+    <div class="row user_info">
+        <div class="col-3 user_photo"><img src="/images/prof_photo.png" height="110" width="110"> </div>
+        <div class="col-6 ">
+            <div class="user_name">{{user_name}}</div>
+            <a href="#" class="click">Click here to edit your profile info</a>
+        </div>
+        <div class="col-2">
+            <div class="user_stat">Patras, Greece</div>
+            <div class="user_stat">Member since 2019</div>
+            <div class="user_stat">13 Profile views</div>
+            <div class="user_stat">Last seen 2 min ago</div>
+        </div>
+    </div>
+    <div class="row  pt-5">
+        <div class="col questions_stat">
+            Questions
+        </div>
+        {{#each questions}}
+        <div class='row'>
+            <div class="col user_questions"> {{{this.dataValues.body}}}</div>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="row  pt-5">
+        <div class="col answer_stat">
+            Answers
+        </div>
+        {{#each answers}}
+        <div class='row'>
+            <div class="col user_answers">{{{this.dataValues.body}}}</div>
+        </div>
+        {{/each}}
+    </div>
+
+</div>
